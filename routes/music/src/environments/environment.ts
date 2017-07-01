@@ -1,0 +1,13 @@
+/* tslint:disable */
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+
+export const environment = {
+  production: false,
+
+// Here's our Spotify API token you can use for testing. Acquiring one of these tokens
+// is beyond the scope of this book. See spotify's developer docs for details
+  spotifyApiKey: "BQCXpXWAwJavpDkNAOj1e-qj9xvKvRv3lIOypTu7yWR5cI38zHImSOUC9AQkoNu9BZkpzAIuYory7V-KtKfai8B1Mf16EuWA_BmS_q6nGy_VJrpcjqEcusYhNASbQL7LCZ0MtnB8vBju"
+};
